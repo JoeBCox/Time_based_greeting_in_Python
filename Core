@@ -1,0 +1,20 @@
+import datetime
+
+currentTime = datetime.datetime.now()
+
+# Note that to make this code functional as is, you would need to set a value to the 'user_name_variable'
+# One way to do this would simply be: user_name_variable = "Jhon"
+
+def time_based_greeting():
+
+    if currentTime.hour < 12:
+        print("Good morning, " + user_name_variable + ".")
+
+    elif 12 <= currentTime.hour < 18:
+        print("Good afternoon, " + user_name_variable + ".")
+
+    else:
+        print("Good evening, " + user_name_variable + ".")
+   
+ 
+ time_based_greeting()
